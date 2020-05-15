@@ -50,7 +50,7 @@ module EarlyHintsHeader
     def assign_headers(headers, env)
       return unless pushable?(env)
 
-      headers["Link"] = build_link_header(headers, env) 
+      headers["Link"] = build_link_header(headers, env)
     end
   end
 end
