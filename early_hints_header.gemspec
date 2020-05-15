@@ -6,8 +6,7 @@ Gem::Specification.new do |spec|
   spec.authors = ["Ian Ker-Seymer"]
   spec.email = ["i.kerseymer@gmail.com"]
 
-  spec.summary = "An early hints middleware afapter which just sets Link headers for http2_push_preload"
-  spec.description = "An early hints middleware afapter which just sets Link headers for http2_push_preload"
+  spec.summary = "An early hints Ruby / Rack middleware which just sets Link headers (i.e. for nginx http2_push_preload)"
   spec.homepage = "https://github.com/ianks/early_hints_header"
   spec.license = "MIT"
   spec.required_ruby_version = Gem::Requirement.new(">= 2.3.0")
