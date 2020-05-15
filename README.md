@@ -1,5 +1,7 @@
 # EarlyHintsHeader
 
+![Ruby](https://github.com/ianks/early_hints_header/workflows/Ruby/badge.svg)
+
 An early hints Ruby / Rack middleware which just sets Link headers.
 
 This means you can use early hints _without_ having to use the HTTP 103
