@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    early_hints_header (0.1.0)
+    early_hints_header (1.0.0)
       fast_woothee
       rack
 
